@@ -9,8 +9,20 @@ import Layout from '../layouts/Layout.astro';
 	<main>
 		<h1>Coding Nomad</h1>
 		<p>
-			This page is currently under construction.
+			This page is currently under construction. Follow the links below to get in touch.
 		</p>
+		<ul>
+			<li>
+				<a href="https://www.linkedin.com/in/mt-campbell">
+					LinkedIn
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/mt-campbell">
+					GitHub
+				</a>
+			</li>
+		</ul>
 	</main>
 	<!-- <footer>
 		Made by CodingNomad.
@@ -18,4 +30,32 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <style>
+	main {
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		height: 100vh;	
+	}
+	h1 {
+		margin: 0;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		gap: .5rem;
+	}
+	li > a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	li > a:hover {
+		color: #ccc;
+	}
+
 </style>
