@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import '../styles/global.css';
 const pageTitle = 'Coding Nomad';
 ---
 
@@ -32,34 +33,3 @@ const pageTitle = 'Coding Nomad';
 		Made by CodingNomad.
 	</footer> -->
 </Layout>
-
-<style>
-	main {
-		color: #fff;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		align-content: center;
-		height: 100vh;	
-	}
-	h1 {
-		margin: 0;
-	}
-	ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		display: flex;
-		gap: .5rem;
-	}
-	li > a {
-		color: #fff;
-		text-decoration: none;
-	}
-
-	li > a:hover {
-		color: #ccc;
-	}
-
-</style>
