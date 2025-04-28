@@ -1,17 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 const pageTitle = 'Coding Nomad';
 ---
 
 <Layout title="CodingNomad">
-    <!-- <header>
-		Michael Campbell
-	</header> -->
     <main>
-        <Navigation />
+        <Header />
         <h1>{pageTitle}</h1>
         <p>This page is currently under construction. Follow the links below to get in touch.</p>
         <ul>
@@ -24,7 +21,4 @@ const pageTitle = 'Coding Nomad';
         </ul>
     </main>
     <Footer />
-    <!-- <footer>
-		Made by CodingNomad.
-	</footer> -->
 </Layout>
