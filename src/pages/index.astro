@@ -1,27 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-const pageTitle = 'Coding Nomad';
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<Layout title="CodingNomad">
-    <main>
-        <Header />
-        <h1>{pageTitle}</h1>
-        <p>This page is currently under construction. Follow the links below to get in touch.</p>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/mt-campbell"> LinkedIn </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/mt-campbell"> GitHub </a>
-            </li>
-        </ul>
-    </main>
-    <Footer />
-    <script>
-        import '../scripts/menu.js';
-    </script>
-</Layout>
+<BaseLayout pageTitle="CodingNomad">
+    <p>This page is currently under construction. Follow the links below to get in touch.</p>
+</BaseLayout>
