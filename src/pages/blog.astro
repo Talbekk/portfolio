@@ -1,26 +1,25 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
-const pageTitle = "My Astro Learning Blog";
+const pageTitle = 'My Astro Learning Blog';
 ---
 
 <Layout title="CodingNomad">
-	<!-- <header>
+    <!-- <header>
 		Michael Campbell
 	</header> -->
-	<body>
-		<a href="/">Home</a>
-		<a href="/about/">About</a>
-		<a href="/blog/">Blog</a>
+    <body>
+        <Navigation />
         <h1>{pageTitle}</h1>
         <p>This is where I will post about my journey learning Astro.</p>
-		<ul>
-			<li><a href="/posts/my-first-post/">Post 1</a></li>
-			<li><a href="/posts/my-second-post/">Post 2</a></li>
-			<li><a href="/posts/my-third-post/">Post 3</a></li>
-		</ul>
+        <ul>
+            <li><a href="/posts/my-first-post/">Post 1</a></li>
+            <li><a href="/posts/my-second-post/">Post 2</a></li>
+            <li><a href="/posts/my-third-post/">Post 3</a></li>
+        </ul>
     </body>
-	<!-- <footer>
+    <!-- <footer>
 		Made by CodingNomad.
 	</footer> -->
 </Layout>
